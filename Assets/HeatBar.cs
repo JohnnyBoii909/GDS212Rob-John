@@ -6,12 +6,11 @@ using UnityEngine.UI;
 public class HeatBar : MonoBehaviour
 {
  public Slider slider;
- public Gradient gradient;
- public Image fill;
+ public Material material;
 
  public float maxHeat = 100f;
  public float currentHeat;
- 
+ //public float failState;
  
 
  void Start()
@@ -25,13 +24,11 @@ public class HeatBar : MonoBehaviour
  {
      slider.maxValue = heat;
      slider.value = heat/2f;
-
-     fill.color = gradient.Evaluate(1f);
  }
 
- void SetHeat(float heat)
+ void SetHeatColour(float heat)
  {
-     fill.color = gradient.Evaluate(slider.normalizedValue);
+     //this.GetComponent<HeatBar>().material;
  }
 
  void Update()
@@ -41,10 +38,10 @@ public class HeatBar : MonoBehaviour
          Hammer(20f);
          
      }
-     SetHeat(currentHeat);
+     SetHeatColour(currentHeat);
    
      currentHeat -= Time.deltaTime;
-     Mathf.Clamp(currentHeat, 0f, 100f);
+     //failState = Mathf.Clamp(currentHeat, slider.minValue, slider.maxValue);
      //currentHeat = slider.normalizedValue; I need to make the Slider value equal to the current heat but I cant figure it out since the slider is a float but currentHeat is a integer
  }
 
