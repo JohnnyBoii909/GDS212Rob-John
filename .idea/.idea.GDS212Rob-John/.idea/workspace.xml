@@ -10,6 +10,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Timer Logic.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="1yYm78Kj0NENlAjWPLYahmjf5oR" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -58,6 +61,7 @@
       <updated>1632436728772</updated>
       <workItem from="1632436735730" duration="1229000" />
       <workItem from="1632440071811" duration="5170000" />
+      <workItem from="1632624646774" duration="2088000" />
     </task>
     <servers />
   </component>

@@ -9,25 +9,27 @@ public class HeatBar : MonoBehaviour
  public Gradient gradient;
  public Image fill;
 
- public int maxHeat = 100;
- public int currentHeat;
+ public float maxHeat = 100f;
+ public float currentHeat;
+ 
+ 
 
  void Start()
  {
-     currentHeat = maxHeat / 2; 
+     currentHeat = maxHeat / 2f; 
      SetMaxHeat(maxHeat);
  }
  
 
- public void SetMaxHeat(int heat)
+ void SetMaxHeat(float heat)
  {
      slider.maxValue = heat;
-     slider.value = heat/2;
+     slider.value = heat/2f;
 
      fill.color = gradient.Evaluate(1f);
  }
 
- void SetHeat(int heat)
+ void SetHeat(float heat)
  {
      fill.color = gradient.Evaluate(slider.normalizedValue);
  }
@@ -36,22 +38,25 @@ public class HeatBar : MonoBehaviour
  {
      if (Input.GetKeyDown(KeyCode.Space))
      {
-         Hammer(20);
+         Hammer(20f);
          
      }
      SetHeat(currentHeat);
+   
+     currentHeat -= Time.deltaTime;
+     Mathf.Clamp(currentHeat, 0f, 100f);
      //currentHeat = slider.normalizedValue; I need to make the Slider value equal to the current heat but I cant figure it out since the slider is a float but currentHeat is a integer
  }
 
- void Hammer(int heat)
+ void Hammer(float heat)
  {
-     if (currentHeat <= 100)
+     if (currentHeat < 100f)
      {
          currentHeat += heat;
      }
      else
      {
-         currentHeat = 100;
+         currentHeat = 100f;
      }
      
      slider.value += heat;
