@@ -73,7 +73,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - Vector1_04c64cb6864a4e50bb4dc75d9a742133: 0
+    - Vector1_04c64cb6864a4e50bb4dc75d9a742133: 1
     - Vector1_45c4b6edc9234ce6b347298ec5d3b32f: 0
     - _BumpScale: 1
     - _Cutoff: 0.5
@@ -82,6 +82,7 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _HeatSlider: -980.6241
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
