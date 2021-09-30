@@ -9,8 +9,10 @@ public class HeatBar : MonoBehaviour
  public Material material;
  public float maxHeat = 100f;
  public float currentHeat;
-    private float hits = 1f;
-    public float deltaTime = 0f;
+ private float hits = 1f;
+ public float deltaTime = 0f;
+
+ public GameObject uIReference;
  //public float failState;
 
 
@@ -43,9 +45,15 @@ public class HeatBar : MonoBehaviour
         //SetHeatColour(currentHeat);
         SetHeatColour(currentHeat);
         currentHeat -= deltaTime;
-        if (currentHeat > 100f)
+        if (currentHeat >= 100f)
         {
             currentHeat = 100f;
+            Failstate();
+        }
+
+        if (currentHeat < 0f)
+        {
+            Failstate();
         }
         //failState = Mathf.Clamp(currentHeat, slider.minValue, slider.maxValue);
         //currentHeat = slider.normalizedValue; I need to make the Slider value equal to the current heat but I cant figure it out since the slider is a float but currentHeat is a integer
@@ -61,7 +69,14 @@ public class HeatBar : MonoBehaviour
      {
          currentHeat = 100f;
      }
-        hits++;
+     hits++;
      //slider.value += heat;
  }
+
+ void Failstate()
+ {
+     Time.timeScale = 0;
+     uIReference.GetComponent<UIControl>().GameOver();
+ }
+ 
 }

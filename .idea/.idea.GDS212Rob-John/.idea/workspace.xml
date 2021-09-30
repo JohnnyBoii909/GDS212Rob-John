@@ -4,14 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f13d3779-1c6d-4f83-b75e-e5b7d3963bb3" name="Changes" comment="" />
+    <list default="true" id="f13d3779-1c6d-4f83-b75e-e5b7d3963bb3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GDS212Rob-John/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GDS212Rob-John/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/HeatBarColour.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/HeatBarColour.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HeatBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HeatBar.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Timer Logic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Timer Logic.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Search.settings" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Search.settings" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Timer Logic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UIControl.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1yYm78Kj0NENlAjWPLYahmjf5oR" />
   <component name="ProjectViewState">
@@ -19,6 +29,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -63,15 +74,29 @@
       <workItem from="1632440071811" duration="5170000" />
       <workItem from="1632624646774" duration="2088000" />
       <workItem from="1632628261970" duration="2781000" />
+      <workItem from="1632963460209" duration="4003000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>
