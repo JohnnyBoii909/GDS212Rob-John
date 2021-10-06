@@ -6,10 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f13d3779-1c6d-4f83-b75e-e5b7d3963bb3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GDS212Rob-John/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GDS212Rob-John/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/HeatBarColour.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/HeatBarColour.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HeatBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HeatBar.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Timer Logic.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Timer Logic.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Search.settings" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Search.settings" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,6 +75,9 @@
       <workItem from="1632624646774" duration="2088000" />
       <workItem from="1632628261970" duration="2781000" />
       <workItem from="1632963460209" duration="4003000" />
+      <workItem from="1633480285696" duration="104000" />
+      <workItem from="1633480577744" duration="36000" />
+      <workItem from="1633481598697" duration="2000" />
     </task>
     <servers />
   </component>
@@ -94,6 +97,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
